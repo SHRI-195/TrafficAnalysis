@@ -1,0 +1,5 @@
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
+-input /user/hadoop/input/data.csv \
+-output /user/hadoop/output \
+-mapper /path/to/mapper.py \
+-reducer /path/to/reducer.py
